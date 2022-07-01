@@ -9,6 +9,7 @@
   "author": "Robin Panta",
   "license": "MIT",
   "dependencies": {
+    "nodemailer": "^6.7.6"
   },
   "devDependencies": {
     "@haluka/core": "^2.0.2"
