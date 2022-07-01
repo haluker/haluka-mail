@@ -1,0 +1,16 @@
+{
+  "name": "haluka-mail",
+  "version": "1.0.0",
+  "description": "Mail Service Provider for Haluka (using nodemailer)",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Robin Panta",
+  "license": "MIT",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@haluka/core": "^2.0.2"
+  }
+}
