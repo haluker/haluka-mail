@@ -10,6 +10,8 @@ exports.default = class MailServiceProvider extends ServiceProvider {
 			if (NodeMailerConfig.verifyOnStart) {
 				transporter.verify(NodeMailerConfig.onVerificationError || (() => {}))
 			}
+
+			return transporter
 		})
 	}
 }
